@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+
+
+        <img src="perfilhypercode.png" width="100px" alt="">
+        <h1>Desenvolvo <br>
+            <span>sites que</span> conectam <br>
+            e geram <span>resultados.</span>
+        </h1>
+
+        <p>Criação de sites mordernos, rápidos e responsivos <br>
+            para ajudar negócios a crescerem na internet.</p>
+    </header>
+    <nav class="nav_meio">
+        <div>
+            <img src="icons8-raio-50.png" alt="">
+            <h2>Rápido <br> e <br> <span> otimizado</span></h2>
+        </div>
+        <div>
+            <img src="icons8-telefone-celular-25.png" width="55px" alt="">
+            <h2>100% Responsivo <br> <span>em qualquer dispositivo</span></h2>
+        </div>
+        <div>
+            <img src="icons8-correto-64.png" alt="">
+            <h2>Focado em <br> <span>resultados</span></h2>
+        </div>
+    </nav>
+
+
+
+
+    <nav class="cards">
+        <div class="card1">
+            <img src="icons8-monitor-50.png" alt="">
+            <h3>Sites Profissionais <br> <span class="spancards">Sites modernos e <br> responsivos para <br>
+                    apresentar o que <br>sua empresa faz <br> de melhor.</span></h3>
+        </div>
+
+        <div class="card2">
+            <img src="icons8-pincel-100.png" width="70px" alt="">
+            <h3>Design Personalizado <br> <span>Layouts únicos e <br> estratégicos que <br> valorizam sua marca <br> e
+                    transmitem <br> credibilidade. </span></h3>
+        </div>
+
+        <div class="card3">
+            <img src="icons8-foguete-50.png" alt="">
+            <h3>Performance <br> <span> Sites leves, r[apidos <br> e otimizados para <br> oferecer a melhor <br>
+                    experiência ao <br> seu cliente.</span></h3>
+        </div>
+
+        <div class="card4">
+            <img src="icons8-whatsapp-50.png" alt="">
+            <h3>Integração WhatsApp <br> <span>Botões de contato <br> para facilitar a <br> comunicação e gerar <br>
+                    mais oportunidades <br> de negócios.</span></h3>
+        </div>
+    </nav>
+
+
+    <nav class="info_final">
+        <div class="textos_finais">
+            <img class="virgula-img" src="icons8-vírgulas-invertidas-48.png" alt="">
+            <h2>Minha missão é transformar <br> ideias em sites que não <br> apenas impressionam, <br> mas que também
+                trazem <br> <span>resultados reais</span></h2>
+        </div>
+
+        <div class="contato">
+            <img src="icons8-nova-mensagem-50.png" alt="">
+            <h2>Vamos trabalhar juntos? <br>
+                <span>Fale comigo e vamos tirar <br> seu projeto do papel.</span>
+            </h2>
+            <button><a href="https://www.instagram.com/hypercodeweb/">Entrar em contato</a></button>
+        </div>
+    </nav>
+
+    <footer>
+        <img src="perfilhypercode.png" width="50px" alt="">
+        <p>Desenvolvimento com foco em <span>qualidade, <br> desempenho </span> e <span>resultados.</span></p>
+    </footer>
+</body>
+
+</html>
+
+<style>
+    body {
+        color: white;
+        background-color: black;
+        margin: 0px;
+        padding: 0px;
+        flex-wrap: wrap;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    span {
+        color: blue;
+    }
+
+    .nav_meio {
+        display: flex;
+        gap: 50px;
+        text-align: center;
+        justify-content: center;
+        margin-top: 50px;
+        flex-wrap: wrap;
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .card1,
+    .card2,
+    .card3,
+    .card4 {
+        background-color: rgba(15, 15, 37, 0.5);
+        height: 250px;
+        width: 200px;
+        text-align: center;
+        border-radius: 8px;
+        border: 1px solid blue;
+    }
+
+    .card1>img {
+        margin-top: 20px;
+    }
+
+    .card3>img {
+        margin-top: 10px;
+    }
+
+    .card4>img {
+        margin-top: 10px;
+    }
+
+    .textos {
+        margin-top: 20px;
+    }
+
+    .info_final {
+        background-color: rgba(15, 15, 37, 0.5);
+        margin: 10px;
+        margin-top: 30px;
+        border: 1px solid blue;
+        border-radius: 8px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .virgula-img {
+        margin-top: 20px;
+        margin-left: 140px;
+    }
+
+    .textos_finais>h2 {
+        margin-left: 210px;
+        margin-top: -20px;
+    }
+    .contato{
+        margin-left: 150px;
+    }
+
+    .contato>img {
+        margin-top: 20px;
+    }
+
+    .contato>h2 {
+        margin-top: -2px;
+    }
+
+    .contato>button {
+        background-color: black;
+        border: 1px solid blue;
+        border-radius: 5px;
+        font-size: 20px;
+        padding: 10px;
+        margin-top: -30px;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    button:hover {
+        padding: 12px;
+        background-color: blue;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+      @media screen and (max-width: 768px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    .info_final {
+        margin: 30px 10px 10px;
+        padding: 25px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 35px;
+        box-sizing: border-box;
+    }
+
+    .textos_finais {
+        width: 100%;
+        text-align: center;
+    }
+
+    .virgula-img {
+        margin: 0 0 10px 0;
+        width: 40px;
+    }
+
+    .textos_finais > h2 {
+        margin: 0;
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+    .contato {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .contato > img {
+        margin: 0 0 10px 0;
+        width: 40px;
+    }
+
+    .contato > h2 {
+        margin: 0;
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+    .contato > button {
+        margin-top: 20px;
+        font-size: 17px;
+        padding: 10px 15px;
+    }
+
+    footer {
+        padding: 20px 10px;
+    }
+
+    footer p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+}
+ 
+</style>
